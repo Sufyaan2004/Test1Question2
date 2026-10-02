@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class Iconsoles {
+public interface IConsoles {
+    String getConsoleType();
+    String getStore();
+    int getTotalSales();
 }
